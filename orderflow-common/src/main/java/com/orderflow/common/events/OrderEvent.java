@@ -14,7 +14,7 @@ public class OrderEvent {
     private String sku;
     private int quantity;
     private long amountCents;
-    private OrderStatus orderStatus;
+    private OrderStatus status;
     private String source;
     @Builder.Default
     private Instant timestamp = Instant.now();
